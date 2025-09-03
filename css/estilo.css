@@ -1,0 +1,249 @@
+
+
+#container{
+    width: 1800px;
+    margin: 0px auto;
+    
+}
+
+body {
+    background-image: linear-gradient( #232526, #757f9a);
+    color:aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: #00CED1;
+    font-size: 60px;
+    text-align: center;
+}
+nav{
+    background-color: transparent;
+    height: 150px;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 50 60px;
+}
+nav li {
+    background-color: gray; 
+    display: inline-block;                
+    border-radius: 40px;        
+}
+nav a {
+    display: block;           
+    color: indigo ;              
+    text-decoration: none;     
+    padding: 20px 20px;       
+    font-weight: bold;         
+}
+nav ul:hover li {
+    filter: blur(5px);
+}
+
+nav ul li:hover {
+    filter: none; 
+}
+h2{
+    color: #00CED1;
+    font-size: 60px;
+   
+}
+p{
+    font-size: 30px;
+    color: #E0E0E0;
+}
+#contenido{
+    min-height: 2000px;
+    float: left;
+    width: 60%;
+  
+
+}
+aside{
+
+    background-color:transparent;
+    float: right;
+    width: 40%;
+    min-height: 1965px;
+}
+footer{
+    color: rgb(41, 40, 40);
+    text-align: center;
+    font-size:medium;
+     font-weight: lighter;
+
+}
+.clearfix{
+
+    clear: both;
+    
+
+}
+
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 98.70%;
+    height: 20px;
+    background-color: transparent;
+    padding: 10px 0px;
+    padding-top: 0px;
+}
+
+.marquee-text {
+font-size: 30px;
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+    color: #00CED1;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(315%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#adobe{
+    background-color: transparent;
+    height: 150px;
+}
+
+#adobe ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 50 100px;
+}
+#adobe li{
+      background-color: gray; 
+    display: inline-block;                
+    border-radius: 40px;        
+}
+#adobe a {
+    display: block;           
+    color: indigo ;              
+    text-decoration: none;     
+    padding: 20px 20px;       
+    font-weight: bold;      
+}
+#adobe ul:hover li {
+    filter: blur(5px);
+}
+
+#adobe ul li:hover {
+    filter: none; 
+}
+
+#zap{
+    background-color: transparent;
+    height: 150px;
+}
+
+#zap ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 50 100px;
+}
+#zap li{
+      background-color: gray; 
+    display: inline-block;                
+    border-radius: 40px;        
+}
+#zap a {
+    display: block;           
+    color: indigo ;              
+    text-decoration: none;     
+    padding: 20px 20px;       
+    font-weight: bold;         
+}
+#zap ul:hover li {
+    filter: blur(5px);
+}
+
+#zap ul li:hover {
+    filter: none; 
+}
+
+#frame{
+    background-color: transparent;
+    height: 150px;
+}
+
+#frame ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 50 100px;
+}
+#frame li{
+      background-color: gray; 
+    display: inline-block;                
+    border-radius: 40px;        
+}
+#frame a {
+    display: block;           
+    color: indigo ;              
+    text-decoration: none;     
+    padding: 20px 20px;       
+    font-weight: bold;         
+}
+#frame ul:hover li {
+    filter: blur(5px);
+}
+
+#frame ul li:hover {
+    filter: none; 
+}
+img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    float:inline-start;
+}
+
+
+____________________________________________________
+
+
+#ex{
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#ex ul li{
+    display:inline-block;
+    list-style: none;
+    margin:  60px;
+}
+#ex li {
+    background-color: transparent;                 
+    border-radius: 40px;        
+}
+#ex a {
+    display: block;           
+    color: #dae5e6 ;              
+    text-decoration: none;     
+    padding: 20px 20px;       
+    font-weight: bold;    
+    font-size:xx-large;   
+}
+
+aside p {
+  color: #007bff; 
+  font-size: 30px; 
+  font-weight: bold; 
+  text-align: center; 
+  text-transform: uppercase; 
+}
+
+aside h2{
+    color: #007bff;
+
+}
